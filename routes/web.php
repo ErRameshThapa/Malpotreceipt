@@ -21,4 +21,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('incomereceipt', ['as' => 'incomereceipt', 'uses' => 'IncomeReceiptController@index']);
+Route::get('incomereceipt/create', ['as' => 'incomereceipt.create', 'uses' => 'IncomeReceiptController@create']);
+Route::post('incomereceipt/store', ['as' => 'incomereceipt.store', 'uses' => 'IncomeReceiptController@store']);
+Route::get('incomereceipt/{id}', ['as' => 'incomereceipt.edit', 'uses' => 'IncomeReceiptController@edit']);
+Route::put('incomereceipt/{id}', ['as' => 'incomereceipt.update', 'uses' => 'IncomeReceiptController@update']);
+Route::delete('incomereceipt/destroy/{id}', ['as' => 'incomereceipt.destroy', 'uses' => 'IncomeReceiptController@destroy']);

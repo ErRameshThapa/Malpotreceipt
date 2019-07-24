@@ -19,15 +19,16 @@
 
 	<div id="page-wrap">
 
-		<textarea id="header">INVOICE</textarea>
-		
+		<textarea id="header">अनुसूची -९
+		नियम १८ को उपनियम ( १) को खण्ड (ग) , नियम ३९ को उपनियम १ को खण्ड (ङ)   नियम ६० को उपनियम (१) को खण्ड (  ङ)  संग सम्बधित 
+		</textarea>
+		<h1 id="name_munacipality"> उत्तरगया गाउपालिका</h1>
 		<div id="identity">
 		
-            <textarea id="address">
-			Gorkha, Nepal
-
-Phone: (555) 555-5555</textarea>
-
+       <textarea id="address"> ३ न. वडा कार्यलय  भगेरी रसुवा
+			३ न. प्रदेश नेपाल 
+	   </textarea>
+			<h2 id="invoice_receipt"> आम्दानी रसिद</h2>
             <div id="logo">
 
               <div id="logoctr">
@@ -51,9 +52,8 @@ Phone: (555) 555-5555</textarea>
 		
 		<div id="customer">
 
-            <textarea id="customer-title">Widget Corp.
-c/o Steve Widget</textarea>
-
+            <textarea id="customer-title"> Customer Name</textarea>
+			<textarea id="customer-title"> </textarea>
             <table id="meta">
                 <tr>
                     <td class="meta-head">Invoice #</td>
@@ -76,17 +76,19 @@ c/o Steve Widget</textarea>
 		<table id="items">
 		
 		  <tr>
-		      <th>Item</th>
-		      <th>Description</th>
-		      <th>Unit Cost</th>
-		      <th>Quantity</th>
-		      <th>Price</th>
+		      <th>वापत</th>
+		      <th>आम्दानी संकेत नम्बर</th>
+		      <th>खा. पा. न</th>
+			  <th> प्रति मुल्य</th>
+		      <th>परिमाण</th>
+		      <th>मूल्य</th>
 		  </tr>
 		  
 		  <tr class="item-row">
 		      <td class="item-name"><div class="delete-wpr"><textarea>Web Updates</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
 		      <td class="description"><textarea>Monthly web updates for http://widgetcorp.com (Nov. 1 - Nov. 30, 2009)</textarea></td>
 		      <td><textarea class="cost">$650.00</textarea></td>
+			  <td><textarea class="cost">$650.00</textarea></td>
 		      <td><textarea class="qty">1</textarea></td>
 		      <td><span class="price">$650.00</span></td>
 		  </tr>
@@ -96,37 +98,42 @@ c/o Steve Widget</textarea>
 
 		      <td class="description"><textarea>Yearly renewals of SSL certificates on main domain and several subdomains</textarea></td>
 		      <td><textarea class="cost">$75.00</textarea></td>
+			  <td><textarea class="cost">$75.00</textarea></td>
 		      <td><textarea class="qty">3</textarea></td>
 		      <td><span class="price">$225.00</span></td>
 		  </tr>
 		  
 		  <tr id="hiderow">
-		    <td colspan="5"><a id="addrow" href="javascript:;" title="Add a row">Add a row</a></td>
+		    <td colspan="6"><a id="addrow" href="javascript:;" title="Add a row">Add a row</a></td>
 		  </tr>
 		  
 		  <tr>
-		      <td colspan="2" class="blank"> </td>
+		      <td colspan="3" class="blank"> </td>
 		      <td colspan="2" class="total-line">Subtotal</td>
 		      <td class="total-value"><div id="subtotal">$875.00</div></td>
 		  </tr>
 		  <tr>
 
-		      <td colspan="2" class="blank"> </td>
+		      <td colspan="3" class="blank"> </td>
 		      <td colspan="2" class="total-line">Total</td>
 		      <td class="total-value"><div id="total">$875.00</div></td>
 		  </tr>
 		  <tr>
-		      <td colspan="2" class="blank"> </td>
+		      <td colspan="3" class="blank"> </td>
 		      <td colspan="2" class="total-line">Amount Paid</td>
 
 		      <td class="total-value"><textarea id="paid">$0.00</textarea></td>
 		  </tr>
 		  <tr>
-		      <td colspan="2" class="blank"> </td>
+		      <td colspan="3" class="blank"> </td>
+			 
 		      <td colspan="2" class="total-line balance">Balance Due</td>
 		      <td class="total-value balance"><div class="due">$875.00</div></td>
 		  </tr>
-		
+		  <tr>
+		      <td class="total-line"> Amount in Words </td>
+			<td colspan="5" class="description"><textarea>Rs Two thousand only</textarea></td>
+		   </tr>
 		</table>
 		
 		<div id="terms">
